@@ -1,0 +1,37 @@
+.new-courses-details-page .top-hero-section .course-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: clamp(20px, 3vw, 32px);
+}
+.new-courses-details-page .top-hero-section .course-sub-title {
+    font-size: clamp(14px, 1.15vw, 17px);
+    margin-bottom: 10px;
+}
+.new-courses-details-page .top-hero-section .course-rating,
+.courses-sticky-bar .course-rating {
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.new-courses-details-page .top-hero-section .course-rating .ratings,
+.courses-sticky-bar .course-rating .ratings {
+    color: #f69c08;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.new-courses-details-page .top-hero-section .course-rating .fa-star,
+.courses-sticky-bar .course-rating .fa-star {
+    font-size: 10px;
+}
+.new-courses-details-page .new-course-common-links:hover {
+    color: #f69c08;
+}
+.new-courses-details-page .new-course-common-links {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}

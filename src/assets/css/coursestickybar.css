@@ -1,0 +1,60 @@
+.new-courses-details-page .top-hero-section .course-rating,
+.courses-sticky-bar .course-rating {
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.new-courses-details-page .top-hero-section .course-rating .ratings,
+.courses-sticky-bar .course-rating .ratings {
+    color: #f69c08;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.new-courses-details-page .top-hero-section .course-rating .fa-star,
+.courses-sticky-bar .course-rating .fa-star {
+    font-size: 10px;
+}
+.new-courses-details-page .top-hero-section .course-rating .count-student,
+.courses-sticky-bar .course-rating .count-student {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.courses-sticky-bar {
+    padding: 10px 20px;
+    background-color: #2d2f31;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.courses-sticky-bar .desc-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.courses-sticky-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.courses-sticky-inner .price-box {
+    align-items: center;
+    display: none;
+}
+.courses-sticky-inner .price-box p {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.courses-sticky-inner .price-box .btn {
+    background-color: #5e17eb;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0;
+    font-size: 16px;
+}

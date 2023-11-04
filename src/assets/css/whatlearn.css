@@ -1,0 +1,29 @@
+.new-courses-details-page .new-courses-left-side .what-learn-section {
+    padding: 25px;
+    border: 1px solid #d1d7dc;
+}
+.new-courses-details-page .new-courses-left-side .what-learn-section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.new-courses-details-page .new-courses-left-side .what-learn-section li {
+    font-size: 14px;
+    color: #2d2f31;
+    position: relative;
+    flex-basis: 48%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.new-courses-details-page .new-courses-left-side .what-learn-section li::before {
+    position: absolute;
+    left: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #2d2f31c9;
+    font-size: 12px;
+    top: 2px;
+}
